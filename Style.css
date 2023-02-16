@@ -1,0 +1,97 @@
+body
+{
+    background-image: url('images/background.png');
+    background-size:contain;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#fondo
+{
+  background-color: white;
+  width: 950;
+  height: 100%;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 20px;
+}
+
+#Encabezado
+{
+  background-image: url(images/banner.jpg);
+  width: 880PX;
+  height: 250px;
+  background-repeat: no-repeat;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 20px;
+  
+}
+#Encabezado #Titulo
+{
+  color: #558d0e;
+  font-size: 60PX;
+  text-align: left;
+  margin-top: 20px;
+  padding: 50px;
+}
+#footer
+{
+    height: 63px;
+    width: 950px;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    background-color: #558d0e;
+    background-repeat: repeat-x;
+    border-radius: 20px;
+    margin-top: 45px;  
+    margin-left: 0px;
+    border-right: 0px;
+    
+}
+#Noticias
+{
+    width: 250px;
+    height: auto;
+    text-align: justify;
+    margin-left: 35px;
+    
+}
+#Relevante
+{
+    width: 250px;
+    height: auto;
+    text-align: justify;
+    margin-left: 35px;
+    
+}
+#Principal
+{
+    
+  position: absolute; /* establece posición absoluta para posicionar el div en el contenedor */
+  bottom: -470px; /* mueve el div 50 píxeles hacia arriba */
+  width: 550px;
+  height: auto ;
+  text-align: justify;
+  margin-left: 350px;
+  margin-bottom: 500px;
+}
+#Principal #Ima
+{
+  float: left; /* establece la imagen flotante a la derecha */
+  
+}
+#Principal #text5
+{
+ margin-left: 250px;
+ margin-bottom: 20px;
+}
+#Principal #text6{
+  margin-left: 250px;
+  margin-bottom: 20px;
+}

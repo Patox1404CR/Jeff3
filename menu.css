@@ -1,0 +1,48 @@
+#menu
+{
+    display: flex;
+    height: auto;
+    background-color: #558d0e;
+    border-radius: 20px;
+    width: 880PX;
+    margin: auto;
+    color: #fff;
+}
+
+#container .principal
+{
+    float: left;
+    color: #fff;
+    border-right: 1px solid #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 25px 10px 25px;
+}
+
+#container a:hover
+{
+    font-size: larger;
+    font-weight: bold;
+    background-color: #a8da61;
+    border-radius: 20px;
+}
+#container a.last
+{
+    border-right: 0px;
+}
+a
+{
+    color: white;
+}
+h2
+{
+    color: dimgrey;
+}
+h3
+{
+    color: #a8da61;
+}
+h4
+{
+    color: #a8da61;
+}
